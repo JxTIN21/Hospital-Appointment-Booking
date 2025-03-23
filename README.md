@@ -87,7 +87,97 @@ doctor-appointment-booking/
 1.  **Clone the repository:**
 
     ```bash
+    git clone <## Setup Instructions
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone <## Setup Instructions
+
+1.  **Clone the repository:**
+
+    ```bash
     git clone <repository_url>
+    ```
+
+2.  **Backend Setup:**
+
+    * Navigate to the `backend` directory: `cd backend`
+    * Install dependencies: `npm install`
+    * Create a `.env` file with your MongoDB URI and JWT secret.
+        ```
+        MONGODB_URI=your_mongodb_connection_string
+        JWT_SECRET=your_jwt_secret
+        ```
+    * Start the server: `npm run dev`
+
+3.  **Frontend Setup:**
+
+    * Navigate to the `frontend` directory: `cd ../frontend`
+    * Install dependencies: `npm install`
+    * Create a `.env` file with your backend api url.
+        ```
+        REACT_APP_API_URL=http://localhost:5000/api
+        ```
+    * Start the development server: `npm start`
+
+4.  **Dashboard Setup:**
+
+    * Navigate to the `dashboard` directory: `cd ../dashboard`
+    * Install dependencies: `npm install`
+    * Create a `.env` file with your backend api url.
+        ```
+        REACT_APP_API_URL=http://localhost:5000/api
+        ```
+    * Start the development server: `npm start`
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit pull requests.
+
+## License
+
+[MIT License](LICENSE) (or any other license you prefer)>
+    ```
+
+2.  **Backend Setup:**
+
+    * Navigate to the `backend` directory: `cd backend`
+    * Install dependencies: `npm install`
+    * Create a `.env` file with your MongoDB URI and JWT secret.
+        ```
+        MONGODB_URI=your_mongodb_connection_string
+        JWT_SECRET=your_jwt_secret
+        ```
+    * Start the server: `npm run dev`
+
+3.  **Frontend Setup:**
+
+    * Navigate to the `frontend` directory: `cd ../frontend`
+    * Install dependencies: `npm install`
+    * Create a `.env` file with your backend api url.
+        ```
+        REACT_APP_API_URL=http://localhost:5000/api
+        ```
+    * Start the development server: `npm start`
+
+4.  **Dashboard Setup:**
+
+    * Navigate to the `dashboard` directory: `cd ../dashboard`
+    * Install dependencies: `npm install`
+    * Create a `.env` file with your backend api url.
+        ```
+        REACT_APP_API_URL=http://localhost:5000/api
+        ```
+    * Start the development server: `npm start`
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit pull requests.
+
+## License
+
+[MIT License](LICENSE)>
     ```
 
 2.  **Backend Setup:**
